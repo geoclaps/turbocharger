@@ -1,0 +1,289 @@
+/* CUSTOM FONTS */
+@font-face {
+	font-family: 'FontRegular';
+	src: url('Museo300-Regular-webfont.eot');
+	src: url('Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('Museo300-Regular-webfont.woff2') format('woff2'),
+	url('Museo300-Regular-webfont.woff') format('woff'),
+	url('Museo300-Regular-webfont.ttf') format('truetype'),
+	url('Museo300-Regular-webfont.svg#museo300') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FontMedium';
+	src: url('Museo500-Regular-webfont.eot');
+	src: url('Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('Museo500-Regular-webfont.woff2') format('woff2'),
+	url('Museo500-Regular-webfont.woff') format('woff'),
+	url('Museo500-Regular-webfont.ttf') format('truetype'),
+	url('Museo500-Regular-webfont.svg#museo500') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FontBold';
+	src: url('Museo700-Regular-webfont.eot');
+	src: url('Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('Museo700-Regular-webfont.woff2') format('woff2'),
+	url('Museo700-Regular-webfont.woff') format('woff'),
+	url('Museo700-Regular-webfont.ttf') format('truetype'),
+	url('Museo700-Regular-webfont.svg#museo700') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* BODY/HTML */
+body { font-size: 14px; }
+
+/* TITLES */
+h1 {  }
+h2 {  }
+h3 { font-size: 3.0em; }
+
+/* GENERAL */
+img { max-width: 100%; }
+
+a { transition: all 0.3s ease; }
+a:hover { opacity: 0.6; }
+
+ul.list, ol.list { padding: 0 0 45px 20px; margin: 0; font-size: 1.2em; }
+ul.list li,
+ol.list li { padding: 5px; }
+
+.desktop-only { display: block; visibility: visible; }
+.mobile-only { display: none; visibility: hidden; }
+
+.no-gutter { padding-left: 0; padding-right: 0; }
+.no-gutter-left { padding-left: 0; }
+.no-gutter-right { padding-right: 0; }
+
+.font-title-smaller { font-size: 1.2em; line-height: 1.2em; }
+.font-title-small { font-size: 1.4em; line-height: 1.2em; }
+.font-title-normal { font-size: 1.8em; line-height: 1.2em; }
+.font-title-medium { font-size: 2.0em; /*display: inline-block;*/ line-height: 1.2em; padding: 5px 0; }
+.font-title-big { font-size: 2.4em; /*display: inline-block;*/ line-height: 1.2em; padding: 10px 0; }
+
+.font-regular { font-family: 'FontRegular', Arial, Verdana, sans-serif; }
+.font-medium { font-family: 'FontMedium', Arial, Verdana, sans-serif; }
+.font-bold { font-family: 'FontBold', Arial, Verdana, sans-serif; }
+.font-underline { text-decoration: underline; }
+
+.p-medium { font-size: 1.3em; margin-bottom: 15px; }
+
+.x-line { height: 1px; margin-top: 30px; }
+.x-line.medium { margin-top: 43px; }
+
+.block-small { padding: 20px 0; }
+.block-medium { padding: 70px 0; }
+.block-big { padding: 140px 0; }
+
+.padding10 { padding: 10px; }
+.padding20 { padding: 20px; }
+.padding30 { padding: 30px; }
+
+.margin-bottom-smaller { margin-bottom: 10px; }
+.margin-bottom-small { margin-bottom: 20px; }
+.margin-bottom-medium { margin-bottom: 70px; }
+.margin-bottom-big { margin-bottom: 140px; }
+
+.border { border: 1px solid #fff; }
+.border.top { border-right-width: 0; border-bottom-width: 0; border-left-width: 0; }
+.border.bottom { border-top-width: 0; border-right-width: 0; border-left-width: 0;  }
+.border.orange { border-color: #ee7313; }
+.border.blue { border-color: #00468e; }
+.border.white { border-color: #fff; }
+.border-small { border-width: 2px; }
+.border.medium { border-width: 4px; }
+/* border from left */
+.pos-relative { position: relative; }
+.pos-relative .text-border { display: inline-block; }
+.pos-relative .border-hide { height: 1px; width: 800px; position: absolute; bottom: 0; left: 50%; margin-left: -1180px; }
+
+.thumb-img { padding: 5px; }
+
+.button { display: block; padding: 15px 0; text-decoration: none; }
+.button:hover,
+.button:focus { text-decoration: none; }
+.button-txt-fix { line-height: 3.0em; }
+
+/* COLORS */
+.white-bg-color { background-color: #fff; }
+.black-bg-color { background-color: #000; }
+.prim-bg-color { background-color: #ee7313; }
+.sec-bg-color { background-color: #00468e; }
+.tert-bg-color { background-color: #1c3e63; }
+
+.white-fg-color { color: #fff; }
+.black-fg-color { color: #000; }
+.prim-fg-color { color: #ee7313; }
+.sec-fg-color { color: #00468e; }
+.tert-fg-color { color: #1c3e63; }
+
+.tert-bg-color.transp-bg { background-color: rgba(0,61,124,0.8); }
+
+
+/* HEADER ELEMENTS */
+.top-bar { padding: 20px 0; font-size: 1.2em; line-height: 45px; }
+.top-bar a { font-weight: bold; color: #fff; text-decoration: underline; }
+
+.header-area { padding: 60px 0 10px; } // 110
+ul.nav-col { border-left: 1px solid #003d7c; padding-left: 10px; margin-top: 18px; }
+ul.nav-col li:first-child { /*font-size: 1.0em; font-weight: bold; text-transform: uppercase;*/ line-height: 1.2em; padding-bottom: 10px; }
+
+/* NAV BAR STYLES */
+nav.navbar { float: right; }
+.navbar .caret { display: none; }
+.dropdown-menu {
+	position: relative;
+	top: auto;
+	left: auto;
+	z-index: inherit;
+	display: block;
+	float: left;
+	min-width: inherit;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: inherit;
+	/*text-align: left;*/
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow:  0 0 0 0 rgba(255,255,255,0);
+	box-shadow: 0 0 0 0 rgba(255,255,255,0);
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+ul.nav.navbar-nav { margin-top: 18px; }
+ul.nav.navbar-nav > li { width: 135px; padding: 2px 0 2px 8px; margin-right: 8px; border-left: 1px solid #337ab7; }
+ul.nav.navbar-nav > li:last-child { margin-right: 0;}
+ul.nav.navbar-nav li a { padding: 0; white-space: normal;}
+ul.nav.navbar-nav li a:hover { text-decoration: underline; }
+ul.nav.navbar-nav > li > a { padding-bottom: 10px; }
+ul.nav.navbar-nav li a:hover { background: none; }
+.navbar-toggle { border-color: #337ab7; margin-top: 0; padding: 16px 16px; }
+.navbar-toggle .icon-bar { width: 30px; height: 3px; background: #337ab7; }
+
+/* CONTENT */
+.product-featured { padding: 90px 0; }
+.product-featured .usp-photos { margin-top: 90px; }
+.product-featured .usp-photos .title { font-size: 1.9em; line-height: 1.0em; border-bottom: 1px solid #00468e; padding: 10px 0; }
+
+.screen-img { background-repeat: no-repeat; background-position: center center; background-size: cover; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; overflow: auto; }
+.screen-img.feat-1 { background-image: url('http://beta.turbochargers.nl/assets/img/home-shaft-wheels.jpg');  }
+.screen-img.feat-2 { background-image: url('http://beta.turbochargers.nl/assets/img/twin-turbo-viper-v10.jpg'); }
+.screen-img.feat-3 { background-image: url('http://beta.turbochargers.nl/assets/img/lambo-tt.jpg'); }
+.screen-img.how-it-works-1 { background-image: url('http://beta.turbochargers.nl/assets/img/renault-twin-turbo.jpg'); }
+.screen-img.how-it-works-2 { background-image: url('http://beta.turbochargers.nl/assets/img/nissan-patrol-turbo-kit.jpg'); }
+.screen-img.export-1 { background-image: url('http://beta.turbochargers.nl/assets/img/moving-boxes.jpg'); }
+
+.usp-txt-holder { padding: 10px 30px; border-left: 1px solid #fff; font-size: 1.0em; }
+.usp-txt-holder .usp-title { font-size: 1.2em; border-bottom: 2px solid #fff; margin-bottom: 5px; }
+
+ul.diagnostics { margin: 130px 0 30px; }
+ul.diagnostics li { padding-bottom: 5px; }
+
+ul.import-names li {margin-right: 20px; line-height: 2.0em; }
+
+ul.brands-list li { line-height: 2.6em; }
+ul.brands-list li a { color: #00468e; }
+
+.side-bg-image { width: 50%; position: absolute; top: 0; height: 100%; background-repeat: no-repeat; z-index: 0; }
+.side-bg-image.left { left: 0; background-position: left center; }
+.side-bg-image.right { right: 0; background-position: right center; }
+
+.title-side-block { margin-top: 0 }
+
+.vertical-line { background: url('http://beta.turbochargers.nl/assets/img/blue-pixel.png') center 25px repeat-y; }
+
+.form-group label { font-weight: normal; font-size: 1.2em; padding: 0 5px; }
+.form-group input,
+.form-group textarea { border-width: 0 0 2px 0; color: #fff; border-radius: 0; background: none; padding: 5px; margin: 0; font-size: 1.2em; }
+.form-group textarea { border-width: 2px; }
+.form-group select { border-width: 0; color: #000; border-radius: 0; background-color: #fff; padding: 5px; margin: 0; font-size: 1.2em; }
+.form-group select option { color: #000; background: #fff;}
+.form-group .form-control::-webkit-input-placeholder { color: #fff; }
+
+/* FOOTER */
+
+footer dl { margin-top: 20px; }
+footer .contact-col { margin-top: 18px; }
+footer .nav-col a { color: #fff; }
+
+footer .social-media a { width: 46px; height: 46px; display: inline-block; margin-right: 8px; background: url('http://beta.turbochargers.nl/assets/img/icon-social-media-white.png') no-repeat; }
+footer .social-media a.facebook { background-position: 0 0; }
+footer .social-media a.twitter { background-position: 0 -92px; }
+footer .social-media a.youtube { background-position: 0 -184px; }
+
+footer .bovag-logos { margin-top: 40px; }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+	.desktop-only { display: none; visibility: hidden; }
+	.mobile-only { display: block; visibility: visible; }
+
+	.header-area { padding-bottom: 10px; }
+	nav.navbar { float: none; }
+	nav.navbar .navbar-toggle { padding: 16px 16px; }
+	nav.navbar .navbar-header { margin-top: -80px }
+	nav.navbar ul.nav.navbar-nav { margin: 60px 15px 0; }
+	nav.navbar ul.nav.navbar-nav > li {overflow: auto; margin-bottom: 10px; }
+}
+
+table tbody tr td a { color: #ee7313; }
+
+select, .form-group select { background-color: #fff !important; }
+
+.license-plate-holder { width: 150px; overflow: hidden; float: right; padding: 2px; background: #f4be04; border-radius: 4px; }
+.license-plate-holder .black-border { overflow: inherit; border: 1px solid rgba(0,0,0,.6);  position: relative; border-radius: 3px }
+.license-plate-holder .blue-label { width: 15px; height: 100%; position: absolute; background: #2a64a3; }
+
+/* .license-plate-holder .plate { width: 115px; display: block; margin-left: 20px; border: 0; background-color: transparent; float: left;color: #000;text-transform: uppercase; font-weight: bold; } */
+
+.license-plate-holder .plate {
+width: 115px;
+height: 40px; /* 40px hoogte is al redelijk groot voor de balk bovenin, kijk maar even hoe het staat.. */
+display: block;
+margin-left: 20px;
+border: 0;
+background-color: transparent;
+float: right; /* uitlijning rechts.. wel zo netjes ;) */
+color: #000;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.license-plate-holder .plate:focus,
+.license-plate-holder *:focus { outline: none; }
+
+
+/* changes on 16/12/2017 */
+.scroll-holder { position: relative; }
+.scroll-holder .top-bar { line-height: 30px; }
+.scroll-holder .top-bar { position: relative; }
+.scroll-holder.sticky .top-bar { position: fixed; width: 100%; z-index: 10; }
+
+button.login-btn { background: #2a64a3; color: #fff; border: none; outline: none; margin: 0; padding: 5px 15px }
+
+button.login-btn:active,
+button.login-btn:hover,
+button.login-btn:focus { background: #1a4a7d !important; color: #fff !important; }
+
+.plate-notice-txt { width: 101px; height: 76px; position: absolute; top: -6px; right: 155px; background-image: url(https://image.ibb.co/b6Ves6/kenteken_check.png); background-size: cover; }
+
+@media (max-width: 600px) { 
+	.scroll-holder { font-size: 0.8em; }
+	.scroll-holder.sticky .plate-notice-txt { top: 15px; left: 10px; right: auto;}
+	.scroll-holder.sticky .license-plate-holder { width: 80%; margin-top: 30px; }
+	.license-plate-holder .plate { width: 100%; padding-left: 20px; }
+	
+	.license-plate-holder { width: 80%; margin:  30px 0 0; }
+	.plate-notice-txt { right: inherit; top: 8px; }
+	
+}
+
+
+@media (max-width: 420px) { 
+	.scroll-holder.sticky .plate-notice-txt { width: 80px; height: 60px; }
+}
